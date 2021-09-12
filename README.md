@@ -16,4 +16,4 @@
 
 ## PHOTOS
 
-### created by Nathan Rose
+### created by nathan rose
