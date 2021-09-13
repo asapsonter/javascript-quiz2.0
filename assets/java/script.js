@@ -95,7 +95,7 @@ let availableQuestions = []
        choices.forEach(choice => {
            const number = choice.dataset['number']
            choice.innerText = currentQuestion['choice' + number]
-       } )
+       })
 
       
        availableQuestions.splice(questionsIndex, 1)
@@ -106,9 +106,9 @@ let availableQuestions = []
 
  choices.forEach(choice => {
      choice.addEventListener('click', e => {
-         if(!acceptingAnswer) return
+         if(!acceptingAnswers) return
 
-         acceptingAnswer = false
+         acceptingAnswers = false
          const selectedChoice = e.target
          const selectedAnswer = selectedChoice.dataset['number']
             
@@ -123,7 +123,8 @@ let availableQuestions = []
 
          setTimeout(() => {
              selectedChoice.parentElement.classList.remove(classToApply)
-             getNewQuestions()
+             getNewQuestion()
+
          }, 1000)
     })
  })
@@ -131,7 +132,7 @@ let availableQuestions = []
 
  incrementScore = num => {
      score +=num
-     scoreText.innerText
+     scoreText.innerText = score
  }
 
  startQuiz()
