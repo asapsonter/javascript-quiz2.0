@@ -98,6 +98,7 @@ h2 {
   text-transform: uppercase;
 }
 
+/* QUIZ END PAGE CSS */
 .end-form-container {
   width: 100%;
   display: flex;
@@ -106,6 +107,7 @@ h2 {
   max-width: 30rem;
 }
 
+/* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   .choice-container {
     min-width: 40rem;
