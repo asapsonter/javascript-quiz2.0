@@ -67,6 +67,7 @@ let availableQuestions = []
       }
    ]
 
+   const TIME_POINTS = 10
    const SCORE_POINTS = 10
    const MAX_QUESTIONS = 5
 
@@ -81,7 +82,7 @@ let availableQuestions = []
         if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
             localStorage.setItem('mostRecentScore', score)
 
-            return window.location.assign('/highscore.html')
+            return window.location.assign('/end.html')
         }
 
         questionCounter++
@@ -129,6 +130,10 @@ let availableQuestions = []
     })
  })
 
+ decreaseTime = num => {
+     time +=num
+     timeText.innerText = time
+ }
 
  incrementScore = num => {
      score +=num
