@@ -5,13 +5,28 @@
   font-family: "Suez One", serif;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
 :root {
   background-color: gray;
 }
 
 h1 {
-  font-size: 45px;
-  margin-bottom: 40px;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: black;
 }
 
 h2 {
@@ -28,4 +43,33 @@ h2 {
   max-width: 80rem;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font-size: 25px;
+  padding: 15px 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(
+    90deg,
+    rgb(238, 218, 131) 0%,
+    rgb(238, 218, 131) 100%
+  );
+  border-radius: 20px;
+}
+
+.note {
+  text-align: center;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 20px 10px;
+  margin: 10px;
 }
