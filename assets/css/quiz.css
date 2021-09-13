@@ -38,16 +38,72 @@ body {
   font-family: monospace;
 }
 
-p {
-  font-family: monospace;
+.correct {
+  background-color: linear-gradient(
+    32deg,
+    rgba(139, 219, 174) 0%,
+    rgba(139, 219, 174) 100%
+  );
 }
 
+.incorrect {
+  background-color: linear-gradient(
+    32deg,
+    rgb(219, 148, 139) 0%,
+    rgb(219, 155, 139) 100%
+  );
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+/*Class Lookup Using ID */
 #question {
   font-family: monospace;
 }
 
+#progressText {
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+#progressScore {
+  font-family: monospace;
+  font-size: 25px;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 3rem;
+  border: 0.2rem solid rgb(139, 219, 174);
+  margin-top: 2rem;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#progressBarFull {
+  height: 100%;
+  background-color: rgba(139, 219, 174);
+  width: 0%;
+}
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+/*End of ID */
+
+/* Media Queries*/
 @media screen and (max-width: 768px) {
   .choice-container {
     min-width: 40rem;
   }
 }
+/* End of Media Queries*/
