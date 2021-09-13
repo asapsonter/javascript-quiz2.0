@@ -111,7 +111,7 @@ h2 {
   color: white;
   background-color: rgba(53, 52, 52, 0.5);
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   border-radius: 15px;
   font-size: 30px;
 }
@@ -119,6 +119,21 @@ h2 {
 .end-score {
   color: rgb(139, 219, 174);
   font-size: 100px;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0.1rem 1.5rem 0 rgba(139, 219, 174, 0.5);
+  text-align: center;
+}
+
+input::placeholder {
+  color: lightgray;
 }
 
 /* MEDIA QUERIES */
