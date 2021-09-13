@@ -1,0 +1,18 @@
+body {
+  color: seashell;
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgb(238, 218, 131);
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  transition: tansform 150ms;
+  transform: scale(1.05);
+  box-shadow: 0 2px 2px 0 rgb(238, 218, 131);
+}
