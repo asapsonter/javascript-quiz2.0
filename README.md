@@ -1,4 +1,4 @@
-# Porsche Quiz
+# Java Script Quiz
 
 ## PURPOSE
 
