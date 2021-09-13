@@ -63,6 +63,11 @@ body {
   text-align: center;
 }
 
+.time {
+  font-family: monospace;
+  font-size: 25px;
+}
+
 /*Class Lookup Using ID */
 #question {
   font-family: monospace;
@@ -102,6 +107,11 @@ body {
 
 /* Media Queries*/
 @media screen and (max-width: 768px) {
+  .choice-container {
+    min-width: 40rem;
+  }
+}
+@media screen and (max-width: 500px) {
   .choice-container {
     min-width: 40rem;
   }
