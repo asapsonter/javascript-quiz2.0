@@ -54,7 +54,7 @@ h2 {
   padding: 15px 0;
   width: 30rem;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-decoration: none;
   color: black;
   background: linear-gradient(
@@ -63,6 +63,28 @@ h2 {
     rgb(238, 218, 131) 100%
   );
   border-radius: 20px;
+}
+
+#highscore-btn {
+  background: linear-gradient(
+    90deg,
+    rgb(139, 219, 174) 0%,
+    rgb(139, 219, 174) 100%
+  );
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: tansform 150ms;
+  transform: scale(1.05);
+  box-shadow: 0 2px 2px 0 rgb(238, 218, 131);
+}
+
+#highscore-btn:hover {
+  cursor: pointer;
+  transition: tansform 150ms;
+  transform: scale(1.05);
+  box-shadow: 0 2px 2px 0 rgb(139, 219, 174);
 }
 
 .note {
