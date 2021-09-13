@@ -97,3 +97,9 @@ h2 {
   word-spacing: 3px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+  .choice-container {
+    min-width: 40rem;
+  }
+}
