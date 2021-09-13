@@ -16,4 +16,8 @@
 
 ## PHOTOS
 
+- Home Page
+- Questions
+- High Score
+
 ### created by nathan rose
