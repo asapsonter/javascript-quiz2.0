@@ -8,11 +8,32 @@ body {
   width: 100%;
   border-radius: 4px;
   background-color: rgb(238, 218, 131);
+  font-size: 30px;
+  min-width: 80rem;
 }
 
 .choice-container:hover {
   cursor: pointer;
   transition: tansform 150ms;
   transform: scale(1.05);
-  box-shadow: 0 2px 2px 0 rgb(238, 218, 131);
+  box-shadow: 0 2px 2px 0 black;
+  color: black;
+}
+
+.choice-prefix {
+  padding: 2rem 2.5rem;
+  color: white;
+  background-color: black;
+  font-family: monospace;
+}
+
+.choice-prefix:hover {
+  padding: 2rem 2.5rem;
+  color: black;
+}
+
+.choice-text {
+  padding: 2rem;
+  width: 100%;
+  font-family: monospace;
 }
