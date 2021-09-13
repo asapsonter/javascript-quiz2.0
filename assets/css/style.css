@@ -107,6 +107,20 @@ h2 {
   max-width: 30rem;
 }
 
+.end-txt {
+  color: white;
+  background-color: rgba(53, 52, 52, 0.5);
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.end-score {
+  color: rgb(139, 219, 174);
+  font-size: 100px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   .choice-container {
