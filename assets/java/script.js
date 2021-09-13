@@ -58,11 +58,11 @@ let availableQuestions = []
       
      //5
      {
-        question: "Would The Following Function Work : console.log(chicago)",
-        choice1: "Yes",
-        choice2: "No",
-        choice3: "Not Sure",
-        choice4: "Skip",
+        question: "What Does 'var' Mean?",
+        choice1: "Variable",
+        choice2: "Various",
+        choice3: "Varsity",
+        choice4: "Var",
         answer: 1,
       }
    ]
